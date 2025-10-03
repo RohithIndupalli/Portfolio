@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohith Indupalli - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Rohith Indupalli</div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#certifications">Certifications</a>
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="gradient-text">Rohith Indupalli</span>
+                </h1>
+                <p class="hero-subtitle">Computer Science Student</p>
+                <p class="hero-description">
+                    A driven and meticulous B.Tech. student seeking opportunities in software engineering 
+                    to apply my knowledge of data structures and software development methodologies.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="mailto:rohith.indupalli@gmail.com" class="btn btn-secondary">Contact Me</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/RohithIndupalli" target="_blank" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/rohith-indupalli-9a972827a/" target="_blank" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.codechef.com/users/rohith1020" target="_blank" title="CodeChef">
+                        <i class="fas fa-code"></i>
+                    </a>
+                    <a href="https://leetcode.com/u/221FA04692/" target="_blank" title="LeetCode">
+                        <i class="fas fa-laptop-code"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am a passionate Computer Science student at Vignan's Foundation for Science Technology and Research, 
+                        expected to graduate in 2026. With a strong foundation in data structures, algorithms, and full-stack development, 
+                        I'm constantly exploring new technologies and building innovative projects.
+                    </p>
+                    <p>
+                        My expertise spans across the MERN stack, and I have a keen interest in machine learning and web development. 
+                        I believe in writing clean, efficient code and creating user-friendly applications that solve real-world problems.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">8.16</div>
+                        <div class="stat-label">CGPA</div>
+                    </div>
+                                       <div class="stat-item">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Certifications</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Sep 2022 - May 2026</div>
+                        <h3>Bachelor of Technology in Computer Science</h3>
+                        <h4>Vignan's Foundation for Science Technology and Research</h4>
+                        <p class="location">Vadlamudi, Guntur</p>
+                        <p class="cgpa">CGPA: 8.16</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Sep 2020 - May 2022</div>
+                        <h3>Intermediate (Class XII)</h3>
+                        <h4>Rajiv Gandhi University of Knowledge and Technology</h4>
+                        <p class="location">Ongole</p>
+                        <p class="cgpa">CGPA: 8.9</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2020</div>
+                        <h3>Secondary School (Class X)</h3>
+                        <h4>Sri Chaitanya School</h4>
+                        <p class="location">Tenali, Guntur</p>
+                        <p class="cgpa">CGPA: 10.0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Python</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Databases</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">MySQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Tools & Platforms</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Postman</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Soft Skills</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Communication</span>
+                        <span class="skill-tag">Team Player</span>
+                        <span class="skill-tag">Time Management</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-item">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <a href="https://certificate-1-x3tb.onrender.com/" target="_blank" class="project-link">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                    <h3>E-Certificate Generation</h3>
+                    <p>
+                        Developed and implemented an E-Certificate generation feature in a MERN stack project, 
+                        enabling automated certificate creation from uploaded Excel data. Deployed on Render via Render Actions.
+                    </p>
+                    <div class="project-tags">
+                        <span>MERN Stack</span>
+                        <span>Automation</span>
+                        <span>Render</span>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                    </div>
+                    <h3>Machine Learning for Early Detection of Chronic Kidney Disease</h3>
+                    <p>
+                        A project using machine learning to analyze patient data for the early detection of chronic kidney disease. 
+                        Implemented classification algorithms (Logistic Regression, Random Forest) to predict disease presence with high accuracy.
+                    </p>
+                    <div class="project-tags">
+                        <span>Machine Learning</span>
+                        <span>Python</span>
+                        <span>Healthcare</span>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <a href="https://zest-sigma.vercel.app/" target="_blank" class="project-link">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                    <h3>Canteen Menu</h3>
+                    <p>
+                        Designed and developed a responsive digital menu for the college canteen using HTML and CSS, 
+                        optimized for both desktop and mobile devices. Deployed on Vercel with QR code access.
+                    </p>
+                    <div class="project-tags">
+                        <span>HTML/CSS</span>
+                        <span>Responsive</span>
+                        <span>Vercel</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="cert-item">
+                    <div class="cert-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>NPTEL Certifications</h3>
+                    <ul>
+                        <li>
+                            <a href="https://drive.google.com/file/d/1PaNj9zw-7PrUOuMO2hmhYUIyTnkDbvg1/view?usp=sharing" target="_blank">
+                                Getting Started with Competitive Coding
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://drive.google.com/file/d/1WItjtsukFhosvwp1svG4K-gF-LDKyPNu/view?usp=sharing" target="_blank">
+                                Management Information System
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://drive.google.com/file/d/1yJBY4gH4A0OUNW6b0VkN7eLG5t9ZQmMd/view?usp=sharing" target="_blank">
+                                Leadership and Team Effectiveness
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="cert-item">
+                    <div class="cert-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Cisco Certification</h3>
+                    <ul>
+                        <li>
+                            <a href="https://drive.google.com/file/d/1d9Rw4L5_AArQhDodai8MZ-M6w65XBhbd/view?usp=sharing" target="_blank">
+                                Introduction to Packet Tracer
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="cert-item">
+                    <div class="cert-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <ul>
+                        <li>
+                            <a href="https://drive.google.com/file/d/1LZd_G6EelBggWV-1IhIVH0akdQsUBR7M/view?usp=sharing" target="_blank">
+                                Technohacks: Web Development
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="cert-item">
+                    <div class="cert-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <h3>Language Proficiency</h3>
+                    <ul>
+                        <li>
+                            <a href="https://drive.google.com/file/d/11D6JTBOfmxjmyzYd65dcDkaRhRG-D6bk/view?usp=sharing" target="_blank">
+                                Cambridge Preliminary English Test — Intermediate English proficiency
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Rohith Indupalli</h3>
+                    <p>Computer Science Student</p>
+                    <p>Tenali, Andhra Pradesh</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#certifications">Certifications</a>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-envelope"></i> rohith.indupalli@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> 7075762414</p>
+                    <div class="footer-social">
+                        <a href="https://github.com/RohithIndupalli" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/rohith-indupalli-9a972827a/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.codechef.com/users/rohith1020" target="_blank"><i class="fas fa-code"></i></a>
+                        <a href="https://leetcode.com/u/221FA04692/" target="_blank"><i class="fas fa-laptop-code"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Rohith Indupalli. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
